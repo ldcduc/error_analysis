@@ -31,22 +31,23 @@
 | 29 | 1 match  |    `dịch_từ_gần_giống` | <details close> #736 </details> | <details close>    #736 <br> `S-762	And it wasn &apos;t because of my attending ; he was a doll .`   <br> `T-762	Và không phải vì bác sĩ hướng dẫn của tôi ; anh ấy dễ mến vô cùng .`   <br> `H-762	-1.2935110330581665	Và đó không phải là bởi vì tôi đã tham gia một cuộc phiêu lưu của tôi . Anh ấy là một gã ngốc .`   <br></details> |
 | 30 | 1 match  |    `dư_comma` | <details close> #1379 </details> | <details close>    #1379 <br> `S-519	Now as I talk about this problem , I &apos;m going to have some questions for you and I &apos;m going to want to know your answers .`   <br> `T-519	Và khi tôi nó về vấn đề này , Tôi sẽ có vài câu hỏi cho bạn và tôi hy vọng được biết câu trả lời từ bạn`   <br> `H-519	-0.43516412377357483	Bây giờ , khi tôi nói về vấn đề này , tôi sẽ có một số câu hỏi cho bạn và tôi sẽ muốn biết câu trả lời của bạn .`   <br></details> |
 | 31 | 1 match  |    `groundtruth_bị_lỗi` | <details close> #255 </details> | <details close>    #255 <br> `S-1519	And his answer was yes .`   <br> `T-1519	Và &quot; <<unk>> &quot; là câu trả lời của ông ta .`   <br> `H-1519	-0.4211737811565399	Và câu trả lời là có .`   <br></details> |
-|   |   |   |
+</details> 
 
   
-| Lỗi | Câu bị lỗi |
-|---|---|
-| `dịch sai + điểm cao` | #181 |
-| `từ ghép 3` | #1190 |  
-| `dịch dở` | #725  |
-| `câu điều kiện` | #439 |      
-| `dịch sai số câu` | #746 |    
+| Lỗi | Câu bị lỗi | Ví dụ |
+|---|---|---|
+| `dịch sai + điểm cao` | #181 | #181 `S-20	All the adults knew the risks .` <br>   `T-20	Tất cả những người lớn đều biết các rủi ro .` <br>   `H-20	-0.3825949728488922	Tất cả những người lớn biết .` <br>   
+| `từ ghép 3` | #1190 |  #1190 `S-1097	And in fact , they began to get specialists in the community and special structures that were responsible for recording , understanding , learning information .` <br>   `T-1097	Và trên thực tế , chúng được phân hoá trong quần thể và những cấu trúc đặc biệt chịu trách nhiệm cho việc ghi chép , đọc hiểu , xử lí thông tin .` <br>   `H-1097	-0.38763362169265747	Và thực tế , họ bắt đầu chuyên gia vào cộng đồng và những cấu trúc đặc biệt chịu trách nhiệm ghi nhận , hiểu biết , học thông tin .` <br>   
+| `dịch dở` | #725  | #725 `S-1306	And those applications let us use our hands to make our communities better .` <br>   `T-1306	Những ứng dụng này giúp chính ta cả thiện xã hội .` <br>   `H-1306	-0.3933538496494293	Và những ứng dụng này để chúng ta sử dụng bàn tay để làm cho cộng đồng tốt hơn .` <br>   
+| `câu điều kiện` | #439 |      #439 `S-76	<unk> that would not have been allowed were outrageously encouraged .` <br>   `T-76	Những khả năng mà trước đây sẽ không được cho phép được khuyến khích rất nhiều .` <br>   `H-76	-1.4889936447143555	Các nhà thám hiểm sẽ không được phép chấp nhận .` <br>   
+| `dịch sai số câu` | #746 |    #746 `S-1505	Mr. Jain himself is on the loose ; nobody knows where he is .` <br>   `T-1505	Jain hiện đang lẩn trốn ; và không ai biết anh ta đang ở đâu .` <br>   `H-1505	-1.3110610246658325	Bản thân ban chính là bản thân ông ấy đang ở đó . Không ai biết ông ấy ở đâu .` <br>   
 | `dịch sai số mệnh đề` | |
-| `tạm chấp nhận` | #618 |  
-| `cần chú ý` | #1518 |   
+| `tạm chấp nhận` | #618 |  #618 `S-1371	Photos like this : construction going on along a busy road .` <br>   `T-1371	Những tấm ảnh như thế này : việc xây dựng diễn ra dọc theo con đường đông đúc .` <br>   `H-1371	-0.41513657569885254	Những bức ảnh như thế này : xây dựng trên một con đường bận rộn .` <br>   
+| `cần chú ý` | #1518 |   #1518 `S-845	And she works in a culture of medicine that acknowledges that human beings run the system , and when human beings run the system , they will make mistakes from time to time .` <br>   `T-845	Và chị làm việc trong văn hoá y học chấp nhận rằng hệ thống được điều khiển bởi những con người , và khi con người điều khiển hệ thống , họ sẽ có lúc phạm sai lầm .` <br>   `H-845	-0.5267342329025269	Và cô ấy làm việc trong một nền văn hoá của y học nhận ra rằng con người đã cạn kiệt hệ thống , và khi con người chạy hệ thống , họ sẽ mắc lỗi thời gian .` <br>   
 |   |   |
 
-* các cụm không dịch được    
+các cụm không dịch được    
+
 * `at a time`: #282 #1236    
 * `as well`: #442    
 * 3 từ `tired` đứng liền nhau: dịch được 2 #784    
